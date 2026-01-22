@@ -8,7 +8,7 @@ You are creating a GitHub issue based on the user's description. Follow this pro
 
 ## Input
 The user has provided the following issue description:
-$ARGUMENTS
+`$ARGUMENTS`
 
 ## Process
 
