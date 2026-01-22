@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(git show:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(grep:*)"
     ]
   }
 }
