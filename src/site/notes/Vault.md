@@ -3,3 +3,4 @@
 ---
 
 Welcome!
+[[Vault/Getting Started\|Getting Started]]
