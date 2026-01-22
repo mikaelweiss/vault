@@ -7,6 +7,7 @@
 
 Guide users through creating effective Claude Code skills via structured questioning. Never assume — always ask.
 
+Some update
 ## Process
 
 ### Phase 1: Discovery
