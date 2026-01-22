@@ -44,7 +44,7 @@ mikaelweiss ALL=(ALL) NOPASSWD: ALL
 :wq
 # Set up Git
 sudo dnf install git -y
-git config --global user.email "campingmikael@icloud.com"
+git config --global user.email "email@email.com"
 git config --global user.name "Mikael Weiss"
 ssh-keygen
 cat .ssh/id_ed25519.pub

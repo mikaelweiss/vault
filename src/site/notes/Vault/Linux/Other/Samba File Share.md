@@ -36,7 +36,7 @@ sudo nvim /etc/samba/smb.conf
    smb encrypt = required
 
    # Host restrictions (adjust subnet to match yours)
-   hosts allow = 192.168.0.0/24, 100.64.0.0/10 EXCEPT 192.168.0.103, 100.105.253.35
+   hosts allow = 192.168.x.x/24, 100.xx.x.x/10 EXCEPT 192.168.0.xxx, 100.xxx.xxx.xx
    hosts deny = ALL
 
    # Disable printing (remove if you need it)

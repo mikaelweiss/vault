@@ -136,12 +136,12 @@ NavigationStack(path: $path) { ... }
 
 This project uses Linear for issue tracking.
 - Team: Development
-- Team ID: 78cc5578-c4f4-4e9d-b3d0-984e7b5089fe
+- Team ID: xxxxxxxx
 
 Use the appropriate Linear CLI or API commands to:
 - Search for issues: `linear issue list --filter "title contains X"`
 - View issue details: `linear issue view DEV-456`
-- Create issue: `linear issue create --title "..." --description "..." --team-id 78cc5578-c4f4-4e9d-b3d0-984e7b5089fe`
+- Create issue: `linear issue create --title "..." --description "..." --team-id xxxxxxx`
 - Add comment: `linear comment create --issue DEV-456 --body "..."`
 
 ## Guidelines

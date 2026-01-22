@@ -114,7 +114,7 @@ programs.git = {
   enable = true;
   config = {
     user = {
-      email = "campingmikael@icloud.com";
+      email = "email@email.com";
       name = "Mikael Weiss";
     };
   };
@@ -207,7 +207,7 @@ mkdir share
         "passdb backend" = "tdbsam";
         "server min protocol" = "SMB3";
         "smb encrypt" = "required";
-        "hosts allow" = "192.168.0.0/24 100.64.0.0/10 EXCEPT 192.168.0.103 100.105.253.35";
+        "hosts allow" = "192.168.0.0/24 100.64.0.0/10 EXCEPT 192.168.0.xxx 100.xxx.xxx.xx";
         "hosts deny" = "ALL";
         "load printers" = "no";
         printing = "bsd";
