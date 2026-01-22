@@ -77,7 +77,7 @@ Create a summary with ALL of the following sections:
 
 **Description**:
 - Brief explanation of the issue
-- Reference any related issues using #<issue-number>
+- Reference any related issues using `#<issue-number>`
 - List of related files (NO CODE)
 - Relevant data models/classes involved
 
