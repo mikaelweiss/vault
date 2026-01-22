@@ -2,7 +2,6 @@ const slugify = require("@sindresorhus/slugify");
 const markdownIt = require("markdown-it");
 const fs = require("fs");
 const matter = require("gray-matter");
-const faviconsPlugin = require("eleventy-plugin-gen-favicons");
 const tocPlugin = require("eleventy-plugin-nesting-toc");
 const { parse } = require("node-html-parser");
 const htmlMinifier = require("html-minifier-terser");
@@ -590,7 +589,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site/scripts");
   eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");
   eleventyConfig.addPassthroughCopy({ "src/site/logo.*": "/" });
-  eleventyConfig.addPlugin(faviconsPlugin, { outputDir: "dist" });
+  eleventyConfig.addPassthroughCopy({ "src/site/favicon.ico": "/favicon.ico" });
+  eleventyConfig.addPassthroughCopy({ "src/site/favicon.svg": "/favicon.svg" });
+  eleventyConfig.addPassthroughCopy({ "src/site/favicon-96x96.png": "/favicon-96x96.png" });
+  eleventyConfig.addPassthroughCopy({ "src/site/apple-touch-icon.png": "/apple-touch-icon.png" });
+  eleventyConfig.addPassthroughCopy({ "src/site/site.webmanifest": "/site.webmanifest" });
+  eleventyConfig.addPassthroughCopy({ "src/site/web-app-manifest-192x192.png": "/web-app-manifest-192x192.png" });
+  eleventyConfig.addPassthroughCopy({ "src/site/web-app-manifest-512x512.png": "/web-app-manifest-512x512.png" });
   eleventyConfig.addPlugin(tocPlugin, {
     ul: true,
     tags: ["h1", "h2", "h3", "h4", "h5", "h6"],
