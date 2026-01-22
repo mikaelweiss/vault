@@ -4,7 +4,7 @@
 
 # Implement Linear Issue
 
-You are implementing a Linear issue that has a spec from `/ideate`. Execute the spec precisely — no searching required.
+You are implementing a Linear issue that has a spec from `/ideate`. Execute the spec precisely - no searching required.
 
 ## Input
 Issue ID: $ARGUMENTS
@@ -46,7 +46,7 @@ Follow the **Implementation Order** from the spec exactly.
 ### For Each Change
 - Go directly to the file and line number specified
 - Make the change described
-- Trust the spec — do not search for additional context
+- Trust the spec - do not search for additional context
 - Use the Documentation section for API reference
 
 ### Writing Code
@@ -70,8 +70,8 @@ After all changes are complete:
 
 ## Guidelines
 
-- **Trust the spec** — It was created with full codebase exploration and research. Don't second-guess it.
-- **No searching** — Go directly to the file:line locations. The spec has everything you need.
-- **Stay in scope** — Only implement what's in the spec. Anything else belongs in a separate issue.
-- **Use the docs** — The Documentation section has the API references and patterns to follow.
-- **Verify thoroughly** — Build, test, format. Don't skip verification.
+- **Trust the spec** - It was created with full codebase exploration and research. Don't second-guess it.
+- **No searching** - Go directly to the file:line locations. The spec has everything you need.
+- **Stay in scope** - Only implement what's in the spec. Anything else belongs in a separate issue.
+- **Use the docs** - The Documentation section has the API references and patterns to follow.
+- **Verify thoroughly** - Build, test, format. Don't skip verification.
