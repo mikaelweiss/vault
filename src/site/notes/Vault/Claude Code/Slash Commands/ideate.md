@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/vault/claude-code/slash-commands/ideate/"}
 ---
 
-
 # Ideation Assistant
 
 Help the user think through and fully specify an idea. The goal: produce a spec so complete that implementation requires zero searching — no codebase exploration, no documentation lookups, no web searches.
