@@ -1,7 +1,7 @@
-const prism = require("markdown-it-prism");
+const highlightjs = require("markdown-it-highlightjs");
 
 function userMarkdownSetup(md) {
-  md.use(prism);
+  md.use(highlightjs);
 }
 function userEleventySetup(eleventyConfig) {
   // The eleventyConfig parameter stands for the the config instantiated in /.eleventy.js.

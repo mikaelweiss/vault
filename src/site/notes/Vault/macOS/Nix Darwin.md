@@ -4,7 +4,7 @@
 
 Setup Instructions: https://mynixos.com/nix-darwin
 
-```bash
+```zsh
 # Install with Nix Lix because vanila instalation is hard to uninstall
 curl -sSf -L https://install.lix.systems/lix | sh -s -- install
 nix-shell -p git neovim
