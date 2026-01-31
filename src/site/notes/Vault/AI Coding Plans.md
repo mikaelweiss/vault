@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/vault/ai-coding-plans/"}
 ---
 
-
+## Coding Plans
 ### Cursor
 **Free For 1 Year for Students**
 Sign up [here](https://cursor.com/students)
@@ -60,3 +60,5 @@ $20/month
 Codex CLI
 >[!Note]
 >You get a decent amount of usage on the $20 plan for ChatGPT
+## Features
+ChatGPT, Claude Code, GitHub Copilot, and Cursor can all be set up to respond to PR's when you make one. You can also send messages to any one of them from your phone for it to do stuff.
