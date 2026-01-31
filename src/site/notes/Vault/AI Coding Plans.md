@@ -3,7 +3,7 @@
 ---
 
 ### Gemini
-FREE
+**FREE**
 Gemini CLI
 ### Claude Code
 $20/month
