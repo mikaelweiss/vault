@@ -2,6 +2,12 @@
 {"dg-publish":true,"permalink":"/vault/ai-coding-plans/"}
 ---
 
+
+### Cursor
+**Free For 1 Year for Students**
+Sign up [here](https://cursor.com/students)
+$20/month after that
+Use any model you want. Anthropic, ChatGPT, GLM, KimiK2.5, Google Gemini etc.
 ### Gemini
 **FREE**
 Gemini CLI
