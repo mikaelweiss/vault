@@ -15,6 +15,8 @@ Gemini CLI
 $20/month
 **Sonnet 4.5 - $3/Million input $6/Million output**
 **Haiku 4.5 - $1/m input $5/m output**
+> [!Note]
+> Out of all the plans, you get the least usage per month from Claude Code on the $20 plan
 ### GLM Coding Plan
 [Sign up Here](https://z.ai/subscribe?ic=UVJIH86GSY)
 $6/month (message me for 10% off) (boasts 3x more usage than $20 Claude Code plan)
@@ -51,3 +53,5 @@ Now run `claudek` to run Kimi K2.5 in Claude Code
 ### ChatGPT
 $20/month
 Codex CLI
+>[!Note]
+>You get a decent amount of usage on the $20 plan for ChatGPT
