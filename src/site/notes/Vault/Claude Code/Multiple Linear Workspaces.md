@@ -4,7 +4,7 @@
 
 Add this to `~/.claude.json`
 
-```
+```json
   "mcpServers": {
     "strive-linear": {
       "command": "npx",
