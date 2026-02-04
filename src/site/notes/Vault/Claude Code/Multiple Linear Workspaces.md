@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/vault/claude-code/multiple-linear-workspaces/"}
 ---
 
-Hi there
 Add this to `~/.claude.json`
 
 ```
