@@ -8,14 +8,14 @@
 Sign up [here](https://cursor.com/students)
 $20/month after that
 Use any model you want. Anthropic, ChatGPT, GLM, KimiK2.5, Google Gemini etc.
-### Gemini
-**FREE**
-Gemini CLI
 ### GitHub Copilot
 Sign up [here](https://education.github.com/pack)
 **FREE**
 Pros: Use most major models; Works in GitHub.
 Cons: Not as "smart" or useful as Cursor, or other CLI's like Claude Code and Codex
+### Gemini
+**FREE**
+Gemini CLI
 ### Claude Code
 $20/month
 **Sonnet 4.5 - $3/Million input $6/Million output**
