@@ -124,7 +124,7 @@ When prompted:
 ```powershell
 cd my-app
 bun install
-bun run tauri dev
+bun tauri dev
 ```
 
 The first run will:
@@ -137,14 +137,14 @@ The first run will:
 
 ## Quick Reference Commands
 
-| Action               | Command                      |
-| -------------------- | ---------------------------- |
-| Start dev server     | `bun tauri dev`              |
-| Build for production | `bun tauri build`            |
-| Check environment    | `bun tauri info`             |
-| Update Tauri CLI     | `bun update @tauri-apps/cli` |
-| Update Rust          | `rustup update`              |
-| Update Bun           | `bun upgrade`                |
+|Action|Command|
+|---|---|
+|Start dev server|`bun tauri dev`|
+|Build for production|`bun tauri build`|
+|Check environment|`bun tauri info`|
+|Update Tauri CLI|`bun update @tauri-apps/cli`|
+|Update Rust|`rustup update`|
+|Update Bun|`bun upgrade`|
 
 ---
 
@@ -214,3 +214,169 @@ Restart your terminal or PC. Windows often requires this for PATH changes.
 - Bun Docs: https://bun.sh/docs
 - Tauri Discord: https://discord.com/invite/tauri
 - Bun Discord: https://bun.sh/discord
+
+---
+
+## Android Development Setup (Optional)
+
+### Step A: Install Android Studio
+
+1. Download from: https://developer.android.com/studio
+2. Run installer with default settings
+3. Launch Android Studio after installation and let it complete initial setup
+
+---
+
+### Step B: Install SDK Components
+
+1. Open Android Studio
+2. Go to **Settings** → **Languages & Frameworks** → **Android SDK**
+3. Click **SDK Tools** tab
+4. Check "Show Package Details" (bottom right)
+5. Install these components:
+    - ✅ Android SDK Platform (latest, e.g., Android 14.0 "UpsideDownCake")
+    - ✅ Android SDK Platform-Tools
+    - ✅ Android SDK Build-Tools (latest version)
+    - ✅ Android SDK Command-line Tools (latest)
+    - ✅ NDK (Side by side) — **note the version number** (e.g., `27.0.12077973`)
+6. Click **Apply** and accept licenses
+
+---
+
+### Step C: Set Environment Variables
+
+Open **PowerShell** and run these commands (adjust NDK version to match yours):
+
+```powershell
+# Set JAVA_HOME (Android Studio's bundled JDK)
+[System.Environment]::SetEnvironmentVariable("JAVA_HOME", "C:\Program Files\Android\Android Studio\jbr", "User")
+
+# Set ANDROID_HOME
+[System.Environment]::SetEnvironmentVariable("ANDROID_HOME", "$env:LocalAppData\Android\Sdk", "User")
+
+# Set NDK_HOME (replace version with yours from Step B)
+$NDK_VERSION = Get-ChildItem -Name "$env:LocalAppData\Android\Sdk\ndk" | Select-Object -Last 1
+[System.Environment]::SetEnvironmentVariable("NDK_HOME", "$env:LocalAppData\Android\Sdk\ndk\$NDK_VERSION", "User")
+```
+
+**Refresh current PowerShell session:**
+
+```powershell
+[System.Environment]::GetEnvironmentVariables("User").GetEnumerator() | % { Set-Item -Path "Env:\$($_.key)" -Value $_.value }
+```
+
+Or simply **restart your PC** (recommended).
+
+---
+
+### Step D: Add Android Rust Targets
+
+```powershell
+rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android x86_64-linux-android
+```
+
+---
+
+### Step E: Enable Windows Developer Mode
+
+**Required for symlink creation:**
+
+1. Open **Settings**
+2. Go to **Privacy & Security** → **For developers**
+3. Toggle **Developer Mode** to **ON**
+4. Restart your terminal
+
+---
+
+### Step F: Initialize Android in Your Project
+
+```powershell
+cd your-tauri-project
+bun tauri android init
+```
+
+---
+
+### Step G: Run on Android
+
+**Using emulator:**
+
+1. Open Android Studio → Device Manager → Create Virtual Device
+2. Start the emulator
+3. Run:
+
+```powershell
+bun tauri android dev
+```
+
+**Using physical device:**
+
+1. Enable Developer Mode: Settings → About Phone → Tap "Build Number" 7 times
+2. Enable USB Debugging: Settings → Developer Options → USB Debugging ON
+3. Connect via USB
+4. Run:
+
+```powershell
+bun tauri android dev
+```
+
+---
+
+### Step H: Build APK for Release
+
+```powershell
+bun tauri android build
+```
+
+Output location: `src-tauri/gen/android/app/build/outputs/apk/`
+
+---
+
+### Android Troubleshooting
+
+**"Failed to create symbolic link" / symlink error**
+
+- Enable Windows Developer Mode: Settings → Privacy & Security → For developers → ON
+- Restart terminal and retry
+
+**"NDK_HOME environment variable isn't set"**
+
+```powershell
+# Check if NDK is installed
+ls $env:LocalAppData\Android\Sdk\ndk
+
+# Set it manually with exact version
+[System.Environment]::SetEnvironmentVariable("NDK_HOME", "$env:LocalAppData\Android\Sdk\ndk\YOUR_VERSION", "User")
+```
+
+**"No available Android Emulator detected"**
+
+- Create an emulator in Android Studio → Device Manager
+- Or connect a physical device with USB debugging enabled
+- Run `adb devices` to verify connection
+
+**Emulator stuck on "Waiting for emulator to start"**
+
+```powershell
+adb kill-server
+adb start-server
+adb devices
+```
+
+**"INSTALL_FAILED_ALREADY_EXISTS" on physical device**
+
+- Uninstall the app from device manually, then retry
+
+**Dev server connection issues**
+
+- Ensure your dev server listens on `0.0.0.0` or uses `TAURI_DEV_HOST`
+- Check firewall isn't blocking connections
+
+**Verify your setup:**
+
+```powershell
+echo $env:JAVA_HOME
+echo $env:ANDROID_HOME  
+echo $env:NDK_HOME
+adb devices
+```
