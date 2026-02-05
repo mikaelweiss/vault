@@ -2,6 +2,8 @@
 {"dg-publish":true,"permalink":"/vault/windows/tauri-setup-guide-for-windows/"}
 ---
 
+# Tauri Setup Guide for Windows (Fresh Install)
+
 ## Using Bun and TypeScript
 
 ---
@@ -11,7 +13,7 @@
 You need to install (in order):
 
 1. Microsoft C++ Build Tools
-2. WebView2 (usually pre-installed on Windows 10/11)
+2. WebView2 _(Windows 11: skip, already installed)_
 3. Rust
 4. Bun
 
@@ -29,14 +31,15 @@ You need to install (in order):
 
 ---
 
-## Step 2: Verify WebView2
+## Step 2: WebView2
 
-WebView2 is pre-installed on Windows 10 (v1803+) and Windows 11. To verify:
+**Windows 11:** WebView2 is pre-installed. **Skip this step.**
 
-1. Open Settings → Apps → Installed Apps
-2. Search for "WebView2"
-3. If missing, download from: https://developer.microsoft.com/en-us/microsoft-edge/webview2/
-    - Get the **"Evergreen Bootstrapper"** and run it
+**Windows 10 (v1803+):** Usually pre-installed. If you encounter WebView2 errors later, install via PowerShell:
+
+```powershell
+winget install Microsoft.EdgeWebView2Runtime
+```
 
 ---
 
@@ -193,7 +196,11 @@ First build is slow (~2-5 min). Subsequent builds are faster due to caching.
 
 ### "WebView2 not found"
 
-Download and install from Microsoft's WebView2 page.
+Windows 11 has it pre-installed. For Windows 10, run:
+
+```powershell
+winget install Microsoft.EdgeWebView2Runtime
+```
 
 ### Path issues after installation
 
