@@ -124,7 +124,7 @@ When prompted:
 ```powershell
 cd my-app
 bun install
-bun tauri dev
+bun run tauri dev
 ```
 
 The first run will:
@@ -137,14 +137,14 @@ The first run will:
 
 ## Quick Reference Commands
 
-|Action|Command|
-|---|---|
-|Start dev server|`bun tauri dev`|
-|Build for production|`bun tauri build`|
-|Check environment|`bun tauri info`|
-|Update Tauri CLI|`bun update @tauri-apps/cli`|
-|Update Rust|`rustup update`|
-|Update Bun|`bun upgrade`|
+| Action               | Command                      |
+| -------------------- | ---------------------------- |
+| Start dev server     | `bun run tauri dev`          |
+| Build for production | `bun run tauri build`        |
+| Check environment    | `bun run tauri info`         |
+| Update Tauri CLI     | `bun update @tauri-apps/cli` |
+| Update Rust          | `rustup update`              |
+| Update Bun           | `bun upgrade`                |
 
 ---
 
