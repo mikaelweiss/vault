@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/backups/restic-backup/"}
+{"dg-publish":true,"permalink":"/vault/linux/backups/restic-backup/","dg-note-properties":{}}
 ---
 
 TLDR;

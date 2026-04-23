@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/claude-code/skills/skill-creator/"}
+{"dg-publish":true,"permalink":"/vault/claude-code/skills/skill-creator/","dg-note-properties":{"name":"skill-creator","description":"Create new Claude Code skills through guided conversation. Use when the user wants to create a skill, write a skill, make a skill, or set up custom instructions for a specific domain or workflow."}}
 ---
 
 

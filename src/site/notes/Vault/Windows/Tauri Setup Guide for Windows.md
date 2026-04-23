@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/windows/tauri-setup-guide-for-windows/"}
+{"dg-publish":true,"permalink":"/vault/windows/tauri-setup-guide-for-windows/","dg-note-properties":{}}
 ---
 
 # Tauri Setup Guide for Windows (Fresh Install)

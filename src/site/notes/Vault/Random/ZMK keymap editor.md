@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/random/zmk-keymap-editor/"}
+{"dg-publish":true,"permalink":"/vault/random/zmk-keymap-editor/","dg-note-properties":{}}
 ---
 
 https://nickcoutsos.github.io/keymap-editor/

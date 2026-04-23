@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/other/minecraft/"}
+{"dg-publish":true,"permalink":"/vault/linux/other/minecraft/","dg-note-properties":{}}
 ---
 
 ## Setting up Quadlet

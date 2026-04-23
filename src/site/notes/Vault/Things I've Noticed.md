@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/things-i-ve-noticed/"}
+{"dg-publish":true,"permalink":"/vault/things-i-ve-noticed/","dg-note-properties":{}}
 ---
 
 ## The "I don't have time" conundrum

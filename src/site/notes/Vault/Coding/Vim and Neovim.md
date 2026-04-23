@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/coding/vim-and-neovim/"}
+{"dg-publish":true,"permalink":"/vault/coding/vim-and-neovim/","dg-note-properties":{}}
 ---
 
 ![vim-cheat-sheet-2.jpeg](/img/user/_config/images/vim-cheat-sheet-2.jpeg)![vim-cheat-sheet.png](/img/user/_config/images/vim-cheat-sheet.png)

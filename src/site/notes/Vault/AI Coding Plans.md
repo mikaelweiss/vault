@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/ai-coding-plans/"}
+{"dg-publish":true,"permalink":"/vault/ai-coding-plans/","dg-note-properties":{}}
 ---
 
 ## Coding Plans

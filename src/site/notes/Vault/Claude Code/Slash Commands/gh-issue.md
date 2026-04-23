@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/claude-code/slash-commands/gh-issue/"}
+{"dg-publish":true,"permalink":"/vault/claude-code/slash-commands/gh-issue/","dg-note-properties":{}}
 ---
 
 # Create GitHub Issue

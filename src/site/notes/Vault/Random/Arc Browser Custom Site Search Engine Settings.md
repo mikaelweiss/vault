@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/random/arc-browser-custom-site-search-engine-settings/"}
+{"dg-publish":true,"permalink":"/vault/random/arc-browser-custom-site-search-engine-settings/","dg-note-properties":{}}
 ---
 
 arc://settings/searchEngines

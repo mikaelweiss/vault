@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/computer-setup/oh-my-zsh/"}
+{"dg-publish":true,"permalink":"/vault/linux/computer-setup/oh-my-zsh/","dg-note-properties":{}}
 ---
 
 ```zsh

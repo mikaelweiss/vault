@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/mac-os/clean-up-nix-store/"}
+{"dg-publish":true,"permalink":"/vault/mac-os/clean-up-nix-store/","dg-note-properties":{}}
 ---
 
 ```

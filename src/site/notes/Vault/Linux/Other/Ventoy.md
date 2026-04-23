@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/other/ventoy/"}
+{"dg-publish":true,"permalink":"/vault/linux/other/ventoy/","dg-note-properties":{}}
 ---
 
 ```zsh

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/other/git-lab/"}
+{"dg-publish":true,"permalink":"/vault/linux/other/git-lab/","dg-note-properties":{}}
 ---
 
 sudo dnf install -y curl policycoreutils openssh-server perl

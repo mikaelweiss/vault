@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/giving-good-feedback/"}
+{"dg-publish":true,"permalink":"/vault/giving-good-feedback/","dg-note-properties":{}}
 ---
 
 1. The micro-yes question

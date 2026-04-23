@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/random/bypass-internet-when-installing-windows-11/"}
+{"dg-publish":true,"permalink":"/vault/random/bypass-internet-when-installing-windows-11/","dg-note-properties":{}}
 ---
 
 Shift + F10 (to open the terminal)

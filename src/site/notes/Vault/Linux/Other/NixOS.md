@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/other/nix-os/"}
+{"dg-publish":true,"permalink":"/vault/linux/other/nix-os/","dg-note-properties":{}}
 ---
 
 To clean your Nix store:

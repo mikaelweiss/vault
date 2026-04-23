@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/claude-code/multiple-linear-workspaces/"}
+{"dg-publish":true,"permalink":"/vault/claude-code/multiple-linear-workspaces/","dg-note-properties":{}}
 ---
 
 Add this to `~/.claude.json`

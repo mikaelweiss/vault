@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/other/samba-file-share/"}
+{"dg-publish":true,"permalink":"/vault/linux/other/samba-file-share/","dg-note-properties":{}}
 ---
 
 ### Set up on Fedora Server

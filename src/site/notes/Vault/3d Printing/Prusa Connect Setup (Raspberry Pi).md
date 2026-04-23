@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/3d-printing/prusa-connect-setup-raspberry-pi/"}
+{"dg-publish":true,"permalink":"/vault/3d-printing/prusa-connect-setup-raspberry-pi/","dg-note-properties":{}}
 ---
 
 ```zsh

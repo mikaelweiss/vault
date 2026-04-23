@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/random/pass/"}
+{"dg-publish":true,"permalink":"/vault/random/pass/","dg-note-properties":{}}
 ---
 
 If pass stops working, try:

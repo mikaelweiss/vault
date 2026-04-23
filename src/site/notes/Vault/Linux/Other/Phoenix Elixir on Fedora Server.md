@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/other/phoenix-elixir-on-fedora-server/"}
+{"dg-publish":true,"permalink":"/vault/linux/other/phoenix-elixir-on-fedora-server/","dg-note-properties":{}}
 ---
 
 sudo dnf install elixir erlang

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/mac-os/nix-darwin/"}
+{"dg-publish":true,"permalink":"/vault/mac-os/nix-darwin/","dg-note-properties":{}}
 ---
 
 Setup Instructions: https://mynixos.com/nix-darwin

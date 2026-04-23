@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/computer-setup/nix-os/install-nix-os/"}
+{"dg-publish":true,"permalink":"/vault/linux/computer-setup/nix-os/install-nix-os/","dg-note-properties":{}}
 ---
 
 Prepare your computer for a migration

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/computer-setup/hyprland/"}
+{"dg-publish":true,"permalink":"/vault/linux/computer-setup/hyprland/","dg-note-properties":{}}
 ---
 
 ```zsh

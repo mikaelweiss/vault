@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/computer-setup/mounting-an-nvme/"}
+{"dg-publish":true,"permalink":"/vault/linux/computer-setup/mounting-an-nvme/","dg-note-properties":{}}
 ---
 
 ```zsh

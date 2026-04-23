@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/claude-code/slash-commands/ideate/"}
+{"dg-publish":true,"permalink":"/vault/claude-code/slash-commands/ideate/","dg-note-properties":{}}
 ---
 
 # Ideation Assistant

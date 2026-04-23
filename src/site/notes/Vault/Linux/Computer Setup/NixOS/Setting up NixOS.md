@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/computer-setup/nix-os/setting-up-nix-os/"}
+{"dg-publish":true,"permalink":"/vault/linux/computer-setup/nix-os/setting-up-nix-os/","dg-note-properties":{}}
 ---
 
 # Opening on another computer

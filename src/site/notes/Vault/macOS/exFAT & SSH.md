@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/mac-os/ex-fat-and-ssh/"}
+{"dg-publish":true,"permalink":"/vault/mac-os/ex-fat-and-ssh/","dg-note-properties":{}}
 ---
 
 If you SSH into a mac and then try and access anything in /Volumes, then it'll fail saying you don't have the right permissions.

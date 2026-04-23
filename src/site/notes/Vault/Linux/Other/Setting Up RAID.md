@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/other/setting-up-raid/"}
+{"dg-publish":true,"permalink":"/vault/linux/other/setting-up-raid/","dg-note-properties":{}}
 ---
 
 ```bash

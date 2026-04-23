@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/backups/kiwix/"}
+{"dg-publish":true,"permalink":"/vault/linux/backups/kiwix/","dg-note-properties":{}}
 ---
 
 https://library.kiwix.org/#lang=eng

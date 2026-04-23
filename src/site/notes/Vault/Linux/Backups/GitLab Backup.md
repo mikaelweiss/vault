@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/backups/git-lab-backup/"}
+{"dg-publish":true,"permalink":"/vault/linux/backups/git-lab-backup/","dg-note-properties":{}}
 ---
 
 Copy ssh key to the second computer

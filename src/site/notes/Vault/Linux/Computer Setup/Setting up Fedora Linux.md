@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/computer-setup/setting-up-fedora-linux/"}
+{"dg-publish":true,"permalink":"/vault/linux/computer-setup/setting-up-fedora-linux/","dg-note-properties":{}}
 ---
 
 f10 to get into bios setup

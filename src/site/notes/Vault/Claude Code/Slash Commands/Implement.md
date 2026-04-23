@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/claude-code/slash-commands/implement/"}
+{"dg-publish":true,"permalink":"/vault/claude-code/slash-commands/implement/","dg-note-properties":{}}
 ---
 
 # Implement Linear Issue

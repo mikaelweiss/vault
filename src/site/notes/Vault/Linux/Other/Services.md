@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/other/services/"}
+{"dg-publish":true,"permalink":"/vault/linux/other/services/","dg-note-properties":{}}
 ---
 
 These are **systemd unit types** that manage different aspects of your system:

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/other/passwordless-sudo/"}
+{"dg-publish":true,"permalink":"/vault/linux/other/passwordless-sudo/","dg-note-properties":{}}
 ---
 
 sudo EDITOR=vim visudo

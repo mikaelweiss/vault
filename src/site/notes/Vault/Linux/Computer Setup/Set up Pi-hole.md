@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/computer-setup/set-up-pi-hole/"}
+{"dg-publish":true,"permalink":"/vault/linux/computer-setup/set-up-pi-hole/","dg-note-properties":{}}
 ---
 
 curl -sSL https://install.pi-hole.net | bash

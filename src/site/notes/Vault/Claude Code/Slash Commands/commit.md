@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/claude-code/slash-commands/commit/"}
+{"dg-publish":true,"permalink":"/vault/claude-code/slash-commands/commit/","dg-note-properties":{}}
 ---
 
 # Commit Staged Changes

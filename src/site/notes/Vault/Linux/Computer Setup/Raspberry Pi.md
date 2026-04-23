@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/computer-setup/raspberry-pi/"}
+{"dg-publish":true,"permalink":"/vault/linux/computer-setup/raspberry-pi/","dg-note-properties":{}}
 ---
 
 Download the installer

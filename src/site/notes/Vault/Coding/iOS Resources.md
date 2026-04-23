@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/coding/i-os-resources/"}
+{"dg-publish":true,"permalink":"/vault/coding/i-os-resources/","dg-note-properties":{}}
 ---
 
 ## Environment Setup

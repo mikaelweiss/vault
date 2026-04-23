@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/linux/computer-setup/other-things-to-look-into/"}
+{"dg-publish":true,"permalink":"/vault/linux/computer-setup/other-things-to-look-into/","dg-note-properties":{}}
 ---
 
 ```zsh

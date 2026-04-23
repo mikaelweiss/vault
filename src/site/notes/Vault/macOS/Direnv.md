@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/vault/mac-os/direnv/"}
+{"dg-publish":true,"permalink":"/vault/mac-os/direnv/","dg-note-properties":{}}
 ---
 
 To ignore the flake.nix file from git, but make direnv think its tracked:
