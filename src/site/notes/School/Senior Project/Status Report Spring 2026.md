@@ -13,6 +13,16 @@
 **Technologies Used:** Html, css, tailwind, JavaScript, TypeScript
 **GitHub URL:** https://github.com/mikaelweiss/ask-pip
 (Add MountainDad as collaborator)
+## Week 2: 5/2/26
+- **Overall Status** (on-schedule, behind, ahead): On-schedule
+- **Hours worked this week:** 2
+- **Total hours worked so far:** 2
+- **Total hours anticipated at completion:** 
+- **Accomplishments:** Built out plan
+- **Challenges:** None yet. Just made plan
+- **Plans / Goals for next week:** Get started
+- **SPED Talk Insight:** none yet. no talks yet.
+- **Other comments for the instructor:** none
 
 ---
 
