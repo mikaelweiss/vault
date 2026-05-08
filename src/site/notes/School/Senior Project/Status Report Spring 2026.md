@@ -13,11 +13,14 @@
 **Technologies Used:** Html, css, tailwind, JavaScript, TypeScript
 **GitHub URL:** https://github.com/mikaelweiss/ask-pip
 (Add MountainDad as collaborator)
+
+## Week 1: 4/25/26
+On schedule
 ## Week 2: 5/2/26
 - **Overall Status** (on-schedule, behind, ahead): On-schedule
 - **Hours worked this week:** 2
 - **Total hours worked so far:** 2
-- **Total hours anticipated at completion:** 
+- **Total hours anticipated at completion:** 126
 - **Accomplishments:** Built out plan
 - **Challenges:** None yet. Just made plan
 - **Plans / Goals for next week:** Get started
@@ -28,15 +31,15 @@
 
 ## Week 3: 5/9/26
 
-- **Overall Status** (on-schedule, behind, ahead):
-- **Hours worked this week:**
-- **Total hours worked so far:**
-- **Total hours anticipated at completion:**
-- **Accomplishments:**
-- **Challenges:**
-- **Plans / Goals for next week:**
-- **SPED Talk Insight:**
-- **Other comments for the instructor:**
+- **Overall Status** (on-schedule, behind, ahead): On schedule
+- **Hours worked this week:** 8
+- **Total hours worked so far:** 10
+- **Total hours anticipated at completion:** 126
+- **Accomplishments:** I was able to get auth, stripe, and the sidebar all set up. All the scaffolding for the project is ready, so now I can start focusing on the user experience
+- **Challenges:** I had to learn a new WTX framework that's used for web extensions. It's cool though 'cause I can potentially release it for Safari and Firefox as well with just a little extra config.
+- **Plans / Goals for next week:** Get the chat experience working so users can chat with the AI
+- **SPED Talk Insight:** This video was great! I the way Ethan explained AI, and he did it in a way that was super simple, clear, and easy to understand. This applies to me because AskPip will be using a lot of AI, so understanding it a little more is very helpful.
+- **Other comments for the instructor:** None at this time
 
 ---
 
