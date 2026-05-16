@@ -203,3 +203,4 @@ You can override the base Obsidian theme color variables directly:
 | `--dg-transclusion-padding` | `8px` | Transclusion container padding |
 | `--dg-external-link-icon-size` | `13px` | External link icon size |
 | `--dg-external-link-padding` | `16px` | External link right padding |
+
