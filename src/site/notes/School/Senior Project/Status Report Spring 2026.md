@@ -45,15 +45,15 @@ On schedule
 
 ## Week 4: 5/16/26
 
-- **Overall Status** (on-schedule, behind, ahead):
-- **Hours worked this week:**
-- **Total hours worked so far:**
-- **Total hours anticipated at completion:**
-- **Accomplishments:**
-- **Challenges:**
-- **Plans / Goals for next week:**
-- **SPED Talk Insight:**
-- **Other comments for the instructor:**
+- **Overall Status** (on-schedule, behind, ahead): On schedule
+- **Hours worked this week:** 5
+- **Total hours worked so far:** 15
+- **Total hours anticipated at completion:** 126
+- **Accomplishments:** Got the chat area working. Created a design system and theme. I also got Markdown rendering and math rendering set up inside of the chat interface, which is super helpful.
+- **Challenges:** Getting an AI to generate UI that doesn't look like it was made by AI takes a ton of effort. I also wanted to use OpenRouter, which I think I'll not use. It's too slow. I want the responses to be faster. I'll probably use Fireworks.ai instead. It's a lot faster and has a more clear privacy policy than OpenRouter.
+- **Plans / Goals for next week:** **Canvas DOM Scraping** Build the content script that detects what type of Canvas page the user is on - dashboard, course home, assignment, quiz, syllabus, modules, grades, discussions, announcements. Implement DOM scrapers for assignment pages (title, description, due date, points, rubric) and course-level pages (course name, syllabus content, module list). Set up Chrome extension messaging between the content script and side panel to pass the scraped data. Add a context indicator in the UI showing what page and course the AI currently knows about. By the end of next week: the extension correctly identifies Canvas page types and pulls out meaningful content from each.
+- **SPED Talk Insight:** It was really cool to learn about abstract syntax trees, especially because that's something that I use all the time in my code editors. And so understanding how it works in practice is really exciting.
+- **Other comments for the instructor:** none at this time
 
 ---
 
