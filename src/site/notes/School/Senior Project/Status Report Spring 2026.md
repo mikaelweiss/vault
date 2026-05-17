@@ -55,6 +55,7 @@ On schedule
 - **SPED Talk Insight:** It was really cool to learn about abstract syntax trees, especially because that's something that I use all the time in my code editors. And so understanding how it works in practice is really exciting.
 - **Other comments for the instructor:** none at this time
 
+
 ---
 
 ## Week 5: 5/23/26
