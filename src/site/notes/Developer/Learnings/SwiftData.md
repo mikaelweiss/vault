@@ -66,4 +66,4 @@ There's no reliable migration story. There's no recovery path for corrupted data
 
 After three years, my app has so much legacy code and technical debt that I can't get rid of because there's no migration path. I'm planning to switch to something like GRDB in the near future, because that's the only way I can actually clean things up.
 
-If you're building something you plan to maintain, do yourself a favor: use SQLite, GRDB, or even Core Data. Anything with a real migration story and escape hatches. SwiftData doesn't have either.
+If you're building something you plan to maintain, do yourself a favor: use SQLite or GRDB. Anything with a real migration story and escape hatches. SwiftData doesn't have either.
