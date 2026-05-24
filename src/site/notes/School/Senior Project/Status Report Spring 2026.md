@@ -59,15 +59,15 @@ On schedule
 
 ## Week 5: 5/23/26
 
-- **Overall Status** (on-schedule, behind, ahead):
-- **Hours worked this week:**
-- **Total hours worked so far:**
-- **Total hours anticipated at completion:**
-- **Accomplishments:**
-- **Challenges:**
-- **Plans / Goals for next week:**
-- **SPED Talk Insight:**
-- **Other comments for the instructor:**
+- **Overall Status** (on-schedule, behind, ahead): on-schedule
+- **Hours worked this week:** 5
+- **Total hours worked so far:** 20
+- **Total hours anticipated at completion:** 120
+- **Accomplishments:** I got the chat set up with a context engine. Whenever you send a message, AskPip checks what kind of page you're on, and then calls the Canvas API to gather whatever context is available for that page.
+- **Challenges:** This was a lot of work, and I think that the biggest challenge was organizing all the work an doing it in the simplest way that it can be done.
+- **Plans / Goals for next week:** Build out assignment help feature where users are able to ask the agent for help in a way that it would help them similar to a tutor.
+- **SPED Talk Insight:** I learned that bycript is used for password hashing! It was an enjoyable presentation.
+- **Other comments for the instructor:** none at this time
 
 ---
 
