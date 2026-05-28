@@ -119,7 +119,7 @@ restic -r /mnt/backup/share-backup restore latest --target / --password-file /et
 ## Set Up Samba
 [[Vault/Linux/Other/Samba File Share\|Samba File Share]]
 # Set Up Minecraft
-[[Vault/Linux/Other/Minecraft\|Minecraft]]
+[[Vault/Linux/Other/Minecraft\|Vault/Linux/Other/Minecraft]]
 # Set up Restic Backup
 [[Vault/Linux/Backups/Restic Backup\|Restic Backup]]
 # Set up Raid

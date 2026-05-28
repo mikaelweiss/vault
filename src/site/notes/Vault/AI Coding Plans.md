@@ -4,6 +4,7 @@
 
 ## Coding Plans
 ### Cursor
+Hi there
 **Free For 1 Year for Students**
 Sign up [here](https://cursor.com/students)
 $20/month after that
