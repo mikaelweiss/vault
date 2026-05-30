@@ -73,15 +73,15 @@ On schedule
 
 ## Week 6: 5/30/26
 
-- **Overall Status** (on-schedule, behind, ahead):
-- **Hours worked this week:**
-- **Total hours worked so far:**
-- **Total hours anticipated at completion:**
-- **Accomplishments:**
-- **Challenges:**
-- **Plans / Goals for next week:**
-- **SPED Talk Insight:**
-- **Other comments for the instructor:**
+- **Overall Status** (on-schedule, behind, ahead): on-schedule
+- **Hours worked this week:** 5
+- **Total hours worked so far:** 25
+- **Total hours anticipated at completion:** 115
+- **Accomplishments:** I got it set up so that when you're inside of an assignment page, then the AI responds as a tutor would, helping guide the student without giving the answer directly.
+- **Challenges:** I think with this, the hard part is figuring out how to have the AI be helpful without giving the answer, because that is kind of vague instructions. So that was interesting to figure out how to work with.
+- **Plans / Goals for next week:** Add more harness things with tool calls where the agent can fetch more information from Canvas if needed, render math, things like that.
+- **SPED Talk Insight:** It was really awesome to learn about the idea of responsive design and animations in design. I thought it was quite interesting.
+- **Other comments for the instructor:** None at this time.
 
 ---
 
