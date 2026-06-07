@@ -76,7 +76,7 @@ On schedule
 - **Overall Status** (on-schedule, behind, ahead): on-schedule
 - **Hours worked this week:** 5
 - **Total hours worked so far:** 25
-- **Total hours anticipated at completion:** 115
+- **Total hours anticipated at completion:** 120
 - **Accomplishments:** I got it set up so that when you're inside of an assignment page, then the AI responds as a tutor would, helping guide the student without giving the answer directly.
 - **Challenges:** I think with this, the hard part is figuring out how to have the AI be helpful without giving the answer, because that is kind of vague instructions. So that was interesting to figure out how to work with.
 - **Plans / Goals for next week:** Add more harness things with tool calls where the agent can fetch more information from Canvas if needed, render math, things like that.
@@ -87,15 +87,20 @@ On schedule
 
 ## Week 7: 6/6/26
 
-- **Overall Status** (on-schedule, behind, ahead):
-- **Hours worked this week:**
-- **Total hours worked so far:**
-- **Total hours anticipated at completion:**
+- **Overall Status** (on-schedule, behind, ahead): on-schedule
+- **Hours worked this week:** 10
+- **Total hours worked so far:** 35
+- **Total hours anticipated at completion:** 120
 - **Accomplishments:**
-- **Challenges:**
-- **Plans / Goals for next week:**
-- **SPED Talk Insight:**
-- **Other comments for the instructor:**
+    1. Migrated to Fireworks.ai. Holly cow, it's so much better.
+    2. LaTeX renderring 🔥
+    3. Added ability for agent to run tool calls
+    4. Added a bunch of tools for the agent
+    5. Added ability for the agent to read documents/files attached to things
+- **Challenges:** Switching from Grok to fireworks was a bit of work. Also, tool calling is always tough to get right. 
+- **Plans / Goals for next week:** Test out the pdf stuff and fix any issues. Make sure stripe is all working.
+- **SPED Talk Insight:** I loved the insights about cash-on-right versus cash-on-read, especially how there are clear advantages to cash-on-right specifically when working with AI APIs. 
+- **Other comments for the instructor:** None at this time
 
 ---
 
