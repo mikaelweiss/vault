@@ -106,15 +106,24 @@ On schedule
 
 ## Week 8: 6/13/26
 
-- **Overall Status** (on-schedule, behind, ahead):
-- **Hours worked this week:**
-- **Total hours worked so far:**
-- **Total hours anticipated at completion:**
+- **Overall Status** (on-schedule, behind, ahead): on-schedule
+- **Hours worked this week:** 15
+- **Total hours worked so far:** 40
+- **Total hours anticipated at completion:** 120
 - **Accomplishments:**
+    - Chat attachments - can add images and any time of unicode file
+    - Added toggle to show/hide assignment info in Canvas
+    - Made AI less verbose
+    - User can now delete conversations
+    - User can now edit messages and branch between messages (including editing images/files attached to a message)
+    - Turn error handling
 - **Challenges:**
+    - Getting the AI to perform as expected. It was originally too verbose, but it wouldn't give you the final answer. Now it's less verbose, but will sometimes just directly give you the answer.
 - **Plans / Goals for next week:**
-- **SPED Talk Insight:**
-- **Other comments for the instructor:**
+    - AI File Comprehension - close to set up, but currently timing out for some reason. Need to fix.
+    - Verify that Stripe is set up correctly
+- **SPED Talk Insight:** It was really awesome to learn about API's and how integral they are to software development.
+- **Other comments for the instructor:** None at this time
 
 ---
 
