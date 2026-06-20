@@ -130,14 +130,50 @@ On schedule
 ## Week 9: 6/20/26
 
 - **Overall Status** (on-schedule, behind, ahead):
-- **Hours worked this week:**
-- **Total hours worked so far:**
-- **Total hours anticipated at completion:**
+- **Hours worked this week:** 25
+- **Total hours worked so far:** 65
+- **Total hours anticipated at completion:** 120
 - **Accomplishments:**
-- **Challenges:**
+
+**Writing & documents**
+- Built a built-in document editor so students can write essays right inside the extension
+- Added the ability for Pip (the AI) to create and rewrite documents for you
+- Pip can now edit your document live as you chat with it
+- Added one-click submitting of a finished document straight to Canvas
+- Added ready-made academic formatting styles (so papers look properly formatted)
+
+**Web search**
+- Gave Pip the ability to search the web during a chat, so answers can pull in current info
+
+**Signing in**
+- Added a sign-in button directly in the sidebar
+- Made the settings page the main place to sign in, and kept your login in sync across the extension
+
+**Files & assignments**
+- Added the ability to pull in files from your previous assignments
+- Fixed problems with uploading files
+- Fixed Pip getting confused between the Canvas page and the document editor
+
+**Chat improvements**
+- Conversations now stay tied to the specific course and assignment you're working on
+- You can now see Pip's reasoning and the tools it's using as it works
+- Added a stop button to cancel Pip mid-response
+
+**Legal**
+- Privacy Policy
+- Terms of service
+- Landing page
+
+**Dev**
+- Added PostHog Analytics
+
+- **Challenges:** I had some issues where pip would want to create a completed file instead of a template file. I also had some issues accessing certain files that were linked. For example, the template file for this weekly status report. I've also had some issues with getting web search set up reliably.
 - **Plans / Goals for next week:**
-- **SPED Talk Insight:**
-- **Other comments for the instructor:**
+    - Onboarding
+    - Better empty states
+    - Chat hardening
+- **SPED Talk Insight:** I didn't realize there was so much going on under the hood to get geocoordinates working correctly, so that was really awesome to learn about and understand how to geocode and reverse geocode reliably both ways.
+- **Other comments for the instructor:** none at this time
 
 ---
 
@@ -151,7 +187,7 @@ On schedule
 - **Challenges:**
 - **Plans / Goals for next week:**
 - **SPED Talk Insight:**
-- **Other comments for the instructor:**
+- **Other comments for the instructor:** 
 
 ---
 
