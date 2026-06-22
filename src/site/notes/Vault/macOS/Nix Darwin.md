@@ -33,7 +33,7 @@ sudo ln -sf $(pwd)/nix-darwin/flake.nix /etc/nix-darwin/flake.nix
 
 sudo rm /etc/nix/nix.conf /etc/nix/nix.custom.conf
 
-sudo nix run nix-darwin/nix-darwin-25.11#darwin-rebuild -- switch
+sudo nix --extra-experimental-features "nix-command flakes" run nix-darwin/nix-darwin-25.11#darwin-rebuild -- switch
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
