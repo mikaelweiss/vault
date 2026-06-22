@@ -11,19 +11,32 @@ nix-shell -p git neovim
 ssh-keygen
 cat .ssh/id_ed25519.pub
 mkdir code
+cd code
+# Add sshid to github
 git clone git@github.com:MikaelWeiss/dotfiles.git
 scutil --get LocalHostName
 nvim flake.nix
 # Add this
-darwinConfigurations."YOUR-MAC-MINI-HOSTNAME" = nix-darwin.lib.darwinSystem }
+darwinConfigurations."YOUR-MAC-MINI-HOSTNAME" = nix-darwin.lib.darwinSystem {
   modules = [ configuration ];
 };
+
 sudo mkdir -p /etc/nix-darwin
+
 sudo chown $(id -nu):$(id -ng) /etc/nix-darwin
-sudo ln -s $(pwd)/flake.nix /etc/nix-darwin/flake.nix
+
+cd ~/code/dotfiles
+
+sudo ln -sf $(pwd)/nix-darwin/flake.nix /etc/nix-darwin/flake.nix
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+sudo rm /etc/nix/nix.conf /etc/nix/nix.custom.conf
+
 sudo nix run nix-darwin/nix-darwin-25.11#darwin-rebuild -- switch
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
 
 # Set up the flake ---- FIRST TIME NIX SETUP
