@@ -179,15 +179,35 @@ On schedule
 
 ## Week 10: 6/27/26
 
-- **Overall Status** (on-schedule, behind, ahead):
-- **Hours worked this week:**
-- **Total hours worked so far:**
-- **Total hours anticipated at completion:**
-- **Accomplishments:**
-- **Challenges:**
-- **Plans / Goals for next week:**
-- **SPED Talk Insight:**
-- **Other comments for the instructor:** 
+- **Overall Status** (on-schedule, behind, ahead): on-schedule
+- **Hours worked this week:** 20
+- **Total hours worked so far:** 85
+- **Total hours anticipated at completion:** 120
+- **Accomplishments:** 
+    - Finished testing the pro plan and payment handling
+    - Added analytics
+    - Tied each conversation to the specific course and assignment a student is working on, so chats stay organized
+    - Cleanup code duplication
+    - Updated create file button to use AI to create the file either from an existing template or a generated template based on the assignment instructions
+    - Added buttons to download and replace files
+    - Fix some issues where files sometimes weren't auto-saving
+    - Let Pip see and pull from documents across all assignments, not just the current assignment
+    - Better web search UI/UX
+    - Fix issue where web search would sometimes fail
+    - Add more logging
+    - Better error handling
+    - Prep for publishing
+    - Screenshots
+    - Submitted to chrome store for publication
+    - Improved onboarding
+    - Added chat hardening
+    - Made better empty states
+- **Challenges:** I was originally having some issues where I wasn't seeing any logs in any of the terminals whenever there were issues, and that was making it difficult to debug things. And so, adding logging helped a lot with that.
+- **Plans / Goals for next week:** 
+    - Add version management to the document editor
+    - Make a place to view all your files
+- **SPED Talk Insight:** I liked learning about IPC. I've used IPC before with Electron, but I hadn't before thought of it as something that could be use to work between languages. For example, elixir and rust. That was very insightful.
+- **Other comments for the instructor:** None at this time
 
 ---
 
