@@ -213,15 +213,30 @@ On schedule
 
 ## Week 11: 7/4/26
 
-- **Overall Status** (on-schedule, behind, ahead):
-- **Hours worked this week:**
-- **Total hours worked so far:**
-- **Total hours anticipated at completion:**
+- **Overall Status** (on-schedule, behind, ahead): on-schedule
+- **Hours worked this week:** 25
+- **Total hours worked so far:** 110
+- **Total hours anticipated at completion:** 120
 - **Accomplishments:**
+    - Released three updates to the Chrome Web Store this week (versions 1.0.1/1.0.2, 1.1.0/1.2.0, and 1.2.1)
+    - Cleaned up small formatting issues and updated the Chrome Web Store link
+    - Added the ability to upload documents or create blank ones from scratch
+    - Built a document browser so users can see and manage all their documents in one place
+    - Added side-by-side previews so users can compare changes before accepting them
+    - Added a confirmation step before replacing a document, to prevent accidents
+    - Added progress tracking so users can watch while a document is being created
+    - Added version history, letting users restore an earlier version of a document
+    - Made the AI faster and cheaper to run behind the scenes
+    - Added academic-integrity protection: the chat now pauses automatically while a student is taking a quiz
+    - Launched a new "Max" premium subscription tier with an upgrade flow
+    - Made document edits appear instantly in editor tabs that are already open
 - **Challenges:**
+    - Had some issues with the doc editor and the way it saves things messing with formatting. Gotta fix still.
 - **Plans / Goals for next week:**
+    - Figure out what part of the end to end saving is messing with the doc editor formatting
 - **SPED Talk Insight:**
-- **Other comments for the instructor:**
+    - It was cool to learn about REST API's!
+- **Other comments for the instructor:** None at this time
 
 ---
 
