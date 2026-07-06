@@ -25,6 +25,7 @@ I wish that I had done 1 leetcode/week and 1 TIARA/STAR each week. Had I done th
 ## Schedule
 
 I tried doing a bunch of leetcode the two days leading up to an interview, and it 100% didn't work. You **MUST** do leetcode at least once a week, but preferably once a day, for *months* leading up to the interview. This is crucially important.
+
 ## Doing the Informational Interview
 
 Follow the principles in [The Two Hour Job Search](https://2hourjobsearch.com/)
